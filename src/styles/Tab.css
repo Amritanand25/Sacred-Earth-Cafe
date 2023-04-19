@@ -1,0 +1,26 @@
+.tab-item{
+    font-weight: 600;
+}
+
+.tab-item a{
+    font-size: 14px;
+    color: var(--dark-gray);
+}
+
+.tab-container{
+    border-radius: 0px 0px 10px 10px;
+    max-width: 99vw;
+    overflow-x: auto;
+}
+
+.active{
+    border-bottom: 1px solid var(--primary);
+}
+
+.active a {
+    color: var(--primary);
+}
+
+.non-active{
+    color: var(--dark-gray);
+}

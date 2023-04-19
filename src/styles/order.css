@@ -1,0 +1,41 @@
+.order-ui-container {
+  min-height: 100vh;
+  padding-bottom: 4rem;
+  background-color: var(--light-gray);
+  max-width: 700px;
+  margin: auto;
+}
+.order-header {
+  box-shadow: -1px -1px 3px #ffffff, 1.5px 1.5px 3px rgba(174, 174, 192, 0.4);
+  border-radius: 0px 0px 10px 10px;
+  background: #f1f1f1;
+}
+
+.order-btn {
+  width: 93%;
+  margin: 1rem;
+  padding: 0.8rem 1.2rem;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  box-shadow: -5px 5px 10px rgba(205, 205, 205, 0.2),
+    5px -5px 10px rgba(205, 205, 205, 0.2),
+    -5px -5px 10px rgba(255, 255, 255, 0.9),
+    5px 5px 13px rgba(205, 205, 205, 0.9);
+  background: linear-gradient(135deg, #459eaf 0%, #007991 100%);
+  cursor: pointer;
+}
+
+.place-order-text {
+  margin-right: 0.6rem;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.order-container {
+  box-shadow: inset -3px -3px 7px #ffffff,
+    inset 2px 2px 5px rgba(174, 174, 192, 0.4);
+  border-radius: 10px;
+  background: #f1f1f1;
+}
